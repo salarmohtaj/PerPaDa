@@ -24,6 +24,6 @@ for files in xml_files:
             sus_text = f.read()
         list_of_fragments.append((source_text[source_start:source_end+1],sus_text[sus_start:sus_end+1]))
 
-with open("list_of_fragments.LIST", 'wb') as f:
+with open("data/list_of_fragments.LIST", 'wb') as f:
     pickle.dump(list_of_fragments, f)
 
