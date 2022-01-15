@@ -9,7 +9,7 @@ list_of_fragments = []
 #### The data could be downloaded from following link
 #### http://ictrc.ac.ir/plagdet/PersianPlagdet2016-text-alignment-corpus.rar
 
-xml_files = glob.glob('hamta/04-simulated-obfuscation/*.xml')
+xml_files = glob.glob('dataset/04-simulated-obfuscation/*.xml')
 
 for files in xml_files:
     tree = ET.parse(files)
